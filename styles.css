@@ -1,0 +1,105 @@
+
+/* Base Styles */
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ body {
+     font-family: Arial, sans-serif;
+     line-height: 1.6;
+ }
+ 
+ /* Layout Styles */
+ .header {
+     background-color: #11494b;
+     color: white;
+     padding: 20px;
+     text-align: center;
+ }
+ 
+ .layout {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     padding: 20px;
+ }
+ 
+ /* Module Styles */
+ .module {
+     margin: 10px;
+ }
+ 
+ /* Card Styles */
+ .card {
+     border: 1px solid #ccc;
+     border-radius: 8px;
+     padding: 16px;
+     width: 250px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+     transition: transform 0.3s, box-shadow 0.3s;
+ }
+ 
+ .card:hover {
+     transform: scale(1.05);
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .card__title {
+     font-size: 1.5em;
+     color: #333;
+     margin-bottom: 8px;
+ }
+ 
+ .card__description {
+     font-size: 1em;
+     color: #666;
+     margin-bottom: 16px;
+ }
+ 
+ /* Button Styles */
+ .button {
+     display: inline-block;
+     padding: 10px 15px;
+     text-decoration: none;
+     border-radius: 5px;
+     transition: background-color 0.3s;
+     cursor: pointer;
+ }
+ 
+ .button--primary {
+     background-color: #3b0a4d;
+     color: white;
+ }
+ 
+ .button--primary:hover {
+     background-color: #541d58;
+ }
+ 
+ .button--secondary {
+     background-color: #3927a0;
+     color: white;
+ }
+ 
+ .button--secondary:hover {
+     background-color: #354c5e;
+ }
+ 
+ /* State Styles */
+ .is-active {
+     background-color: #28a745;
+     color: white;
+ }
+ 
+ /* Footer Styles */
+ .footer {
+     background-color: #f8f9fa;
+     text-align: center; /* Center text */
+     padding: 10px;
+     position: relative;
+     bottom: 0;
+     width: 100%;
+     margin: 100px;
+     align-items: center;
+ }
